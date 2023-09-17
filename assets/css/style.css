@@ -20,6 +20,16 @@ main .aside-bar{
 main .aside-bar ul{
     list-style: none;
 }
+main .grilla .card img{
+    width: 200px;
+} 
+main .grilla{
+    display: flex;
+}
+main .grilla .card{
+    text-align: center;
+    padding: 20px;
+}
 footer{
     text-align: center;
     padding: 10px;

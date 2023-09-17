@@ -105,6 +105,7 @@ body {
 .main__card__precio {
     padding-bottom: 2rem;
     font-size: 1.3rem;
+    color: rgb(82, 150, 82);
 }
 .main__card__link {
     display: block;

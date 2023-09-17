@@ -1,71 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Css desafio Grid</title>
-    <!--CSS-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rolex</title>
+    <!--Css-->
     <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-    <header>
-        <h3>Mi tienda</h3>
-    </header>
+    <!--Icono-->
+    <link rel="icon" href="assets/img/logoarriba.jpg">
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
 
-    <main>
-        <section class="aside-bar">
-            <h2>Categorias</h2>
-            <ul>
-                <li>perfumes <p>(13)</p></li>
-                <li>ropa <p>(21)</p></li>
-                <li>accesorios <p>(41)</p></li>
-                <li>zapatos <p>(10)</p></li>
-            </ul>
+        <div>
+          <img src="assets/img/logo.png" alt="">
+        </div>
 
-        </section>
-        <section class="grilla">
-            <div class="card">
-                <img src="assets/img/pintura1.avif" alt="">
-                <h2>Poleron puma</h2>
-                <p>44.700</p>
-                <button>comprar</button>
-            </div>
-            <div class="card">
-                <img src="assets/img/pintura1.avif" alt="">
-                <h2>Poleron puma</h2>
-                <p>44.700</p>
-                <button>comprar</button>
-            </div>
-            <div class="card">
-                <img src="assets/img/pintura1.avif" alt="">
-                <h2>Poleron puma</h2>
-                <p>44.700</p>
-                <button>comprar</button>
-            </div>
-            <div class="card">
-                <img src="assets/img/pintura1.avif" alt="">
-                <h2>Poleron puma</h2>
-                <p>44.700</p>
-                <button>comprar</button>
-            </div>
-            <div class="card">
-                <img src="assets/img/pintura1.avif" alt="">
-                <h2>Poleron puma</h2>
-                <p>44.700</p>
-                <button>comprar</button>
-            </div>
-            <div class="card">
-                <img src="assets/img/pintura1.avif" alt="">
-                <h2>Poleron puma</h2>
-                <p>44.700</p>
-                <button>comprar</button>
-            </div>
-
-        </section>
-    </main>
-
-    <footer>
-        <p>@miecommerce</p>
-    </footer>
-</body>
+        <div class="navbar__search">
+          <input class="navbar__placeholder" type="text" placeholder="Buscar Reloj" />
+          <a class="navbar__icon navbar__icon--lupa" href=""><i class="fa-solid fa-magnifying-glass fa-xl" style="color: #ffffff"></i></a>
+        </div>
+      </nav>
+      <aside class="sidebar">
+        <h1 class="sidebar__title">Categorías</h1>
+        <div class="sidebar__content">
+          <a class="sidebar__link" href="">Reloj Basico (23)</a>
+          <a class="sidebar__link" href="">Reloj medio (34)</a>
+          <a class="sidebar__link" href="">reloj de lujo (19)</a>
+          <a class="sidebar__link" href="">Reloj Unico (2)</a>
+        </div>
+      </aside>
+      <main class="main">
+        <div class="main__cards">
+          <div class="main__card">
+            <img src="./assets/img/reloj 1.jpg" class="main__card__img" alt="" />
+            <h2 class="main__card__title">GMT-Master II</h2>
+            <p class="main__card__descripción">Reloj con Oro y Plata</p>
+            <p class="main__card__precio">$11.999.990</p>
+            <a class="main__card__link" href="">Comprar</a>
+          </div>
+          <div class="main__card">
+            <img src="./assets/img/reloj 2.png" class="main__card__img" alt="" />
+            <h2 class="main__card__title">Sea-Dweller</h2>
+            <p class="main__card__descripción">Reloj de Oro</p>
+            <p class="main__card__precio">$14.999.990</p>
+            <a class="main__card__link" href="">Comprar</a>
+          </div>
+          <div class="main__card">
+            <img src="./assets/img/reloj 3.jpg" class="main__card__img" alt="" />
+            <h2 class="main__card__title">Oyster-Perpetual</h2>
+            <p class="main__card__descripción">Reloj de Platino</p>
+            <p class="main__card__precio">$20.999.990</p>
+            <a class="main__card__link" href="">Comprar</a>
+          </div>
+          <div class="main__card">
+            <img src="./assets/img/reloj 4.jpg" class="main__card__img" alt="" />
+            <h2 class="main__card__title">Date-just</h2>
+            <p class="main__card__descripción">Reloj de Platino</p>
+            <p class="main__card__precio">$10.999.990</p>
+            <a class="main__card__link" href="">Comprar</a>
+          </div>
+        </div>
+      </main>
+      <section class="right__section">
+        <div class="right__section__cards">
+          <div class="right__section__card right__section__card--1">
+            <h2 class="right__section__card__title">
+              Mas sobre nosotros
+            </h2>
+            <img src="./assets/img/logo derecha.png" class="right__section__card__img" alt="" />
+            <a class="right__section__card__link" href="">Ver más</a>
+          </div>
+          <div class="right__section__card right__section__card--2">
+            <h2 class="right__section__card__title">
+              ¡Sugerencias!
+            </h2>
+            <a class="right__section__card__link" href="">acá</a>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <p>@Gonzalo Miranda-desafio Latam</p>
+      </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/264cd09e8c.js" crossorigin="anonymous"></script>
+  </body>
 </html>

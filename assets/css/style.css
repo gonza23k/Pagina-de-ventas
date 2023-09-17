@@ -172,6 +172,9 @@ body {
     );
     margin-top: 3rem;
 }
+.right__section__card img{
+    width: 200px;
+}
 .footer {
     grid-area: footer;
     background-image: linear-gradient(to right, #111416 20%, #706e6b 100%);
